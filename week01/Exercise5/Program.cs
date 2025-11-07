@@ -5,19 +5,14 @@ class Program
     static void Main(string[] args)
     {
         {
-        // Llamada al método que muestra el mensaje de bienvenida
         DisplayWelcome();
 
-        // Pedimos el nombre y lo guardamos
         string userName = PromptUserName();
 
-        // Pedimos el número favorito y lo guardamos
         int userNumber = PromptUserNumber();
 
-        // Calculamos el cuadrado del número
         int square = SquareNumber(userNumber);
 
-        // Mostramos el resultado
         DisplayResult(userName, square);
         }
 
