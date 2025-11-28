@@ -6,12 +6,10 @@ class Program
     {
         Console.WriteLine("=== Assignment Inheritance Demo ===\n");
 
-        // Base class
         Assignment a1 = new Assignment("Jean Ordoñez", "STEM Projects");
         Console.WriteLine(a1.GetSummary());
         Console.WriteLine();
 
-        // Math assignment
         MathAssignment m1 = new MathAssignment(
             "Ana",
             "Linear Equations",
@@ -23,7 +21,6 @@ class Program
         Console.WriteLine(m1.GetHomeworkList());
         Console.WriteLine();
 
-        // Writing assignment
         WritingAssignment w1 = new WritingAssignment(
             "Luis",
             "Peruvian History",
