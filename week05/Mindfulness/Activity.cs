@@ -52,7 +52,7 @@ public abstract class Activity
     protected void EndActivity()
     {
         Console.WriteLine();
-        Console.WriteLine("Well done! You completed the activity. ✨");
+        Console.WriteLine("Well done! You completed the activity. ");
         ShowSpinner(3);
 
         Console.WriteLine($"\nYou have completed {_duration} seconds of the {_name} activity.");
@@ -84,6 +84,5 @@ public abstract class Activity
         Console.WriteLine();
     }
 
-    // Cada clase hija DEBE implementar su propia lógica principal
     public abstract void Run();
 }
